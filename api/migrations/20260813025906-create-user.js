@@ -13,7 +13,7 @@ module.exports = {
         type: Sequelize.STRING
       },
       lineStatus: {
-        type: Sequelize.ENUM
+        type: Sequelize.ENUM('online', 'offline')
       },
       createdAt: {
         allowNull: false,
